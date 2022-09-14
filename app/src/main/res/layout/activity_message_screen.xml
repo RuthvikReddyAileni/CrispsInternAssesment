@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MessageScreen"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@color/white"
+    >
+    <TextView
+        android:id="@+id/message1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:hint="This is a title"
+
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/message2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:hint="This is a text"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/message3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You are now subscribed to Channel A"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        />
+
+</LinearLayout>
